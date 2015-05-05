@@ -1,0 +1,49 @@
+# INSTALL DATA
+# ============
+
+
+# Please change INSTALL DATA below to suit your system configurations
+
+# Please do not change variable name, you may change only the value
+
+# MySQL database username
+DBUSER="35df373d83a7"
+
+# MySQL database password
+DBPASS="de831d54583279a0"
+
+# MySQL database name
+DBNAME="celuavisos"
+
+# MySQL database host
+DBHOST="localhost"
+
+# MySQL database port
+DBPORT="3306"
+
+# Web server's user, for example apache2 user by default is www-data
+# note: please make sure your web server user
+WEBSERVERUSER="serverpilot"
+
+# Web server's group, for example apache2 group by default is www-data
+# note: please make sure your web server group
+WEBSERVERGROUP="serverpilot"
+
+# Path to playSMS extracted source files
+PATHSRC="$(pwd)"
+
+# Path to playSMS web files
+# note: please make sure your web root path, in this example its /var/www/html
+PATHWEB="/srv/users/serverpilot/apps/celuavisos/public"
+
+# Path to playSMS additional files
+PATHLIB="/srv/users/serverpilot/apps/celuavisos/lib/playsms"
+
+# Path to playSMS daemon and other binary files
+PATHBIN="/srv/users/serverpilot/apps/celuavisos/usr/local/bin"
+
+# Path to playSMS log files
+PATHLOG="/srv/users/serverpilot/apps/celuavisos/var/log/playsms"
+
+# END OF INSTALL DATA
+# ===================
